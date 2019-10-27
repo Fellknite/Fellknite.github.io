@@ -1,0 +1,29 @@
+/*
+CPSC 583 - Fall 2019 -- Assignment 2 Part 1                                                           Jeremy Sutherland
+10/26/2019                                                                                                     10162263
+*/
+
+/* I reeeaaally didn't want to go nuts on CSS formatting considering how long it took for me to make the javascript */
+/* file, so it's just gonna be this. Works fine as far as I can see                                                 */
+
+
+body {
+    background: floralwhite;
+    font-family: Calibri, sans-serif;
+    font-size: 14pt;                    /* Basic formatting details for the main body of the webpage*/
+    font-weight: 300;
+    color: black;
+    letter-spacing: 0.1em;
+    padding: 20px;
+}
+
+#vis {
+    background:floralwhite;
+    display: block;
+    width: 90%;
+    height: 100%;                        /*Basic formatting for the actual visualisation window*/
+    min-width: 1000px;
+    min-height: 600px;
+    margin: auto;
+}
+
